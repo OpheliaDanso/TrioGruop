@@ -28,8 +28,153 @@ nav {
 
 #contact_client-section {
   color: lightsalmon;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 550px 550px;
+}
+
+.classA1 {
+  padding-left: 5rem;
+}
+
+.classA1 h2 {
+  text-transform: uppercase;
+  color: black;
+  padding: 0.7rem;
+}
+
+form {
+  margin: 0.5rem;
+}
+
+form input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 30em;
+}
+
+form textarea {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 30em;
+}
+
+form button {
+  color: aqua;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 15%;
+  border-color: aqua;
+}
+
+#contact_client-section h2 {
+  text-transform: uppercase;
+  color: black;
+  padding: 0.7rem;
+}
+
+#contact_client-section .client-logo {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  grid-gap: 25px;
+  margin: 0.5rem;
 }
 
 footer {
   color: blueviolet;
+  background-image: url(./image/photoshop/photoshop/design-assets/bgk-footer.png);
+  min-height: 25rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+}
+
+.footerA {
+  margin: 3rem;
+}
+
+.footerA span {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  align-items: center;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem;
+  color: rgb(72, 188, 188);
+}
+
+.footerA p {
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.footerA .help {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 16px 16px 16px 0px;
+}
+
+.footerB {
+  margin: 3rem;
+}
+
+.footerB h2 {
+  color: whitesmoke;
+  font-size: large;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.footerB .spanA {
+  display: grid;
+  grid-template-columns: 30px 300px;
+  padding: 1rem;
+}
+
+.spanA p {
+  color: whitesmoke;
+}
+
+.footerB .spanB {
+  display: grid;
+  grid-template-columns: 30px 300px;
+  color: whitesmoke;
+  padding-left: 0.7rem;
+}
+
+.footerC {
+  margin: 3rem;
+}
+
+.footerC h2 {
+  color: whitesmoke;
+  font-size: large;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.form input {
+  width: 12rem;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.form button {
+  width: 4rem;
+  height: 3rem;
+  border: none;
+  color: whitesmoke;
+}
+
+.footerC .img {
+  padding: 1rem;
+}
+
+.footerC .em {
+  padding: 2rem;
+  color: whitesmoke;
 }
