@@ -8,11 +8,6 @@ html {
   color-scheme: light dark;
 }
 
-/* Nav */
-
-nav {
-
-}
 
 a {
   text-decoration: none;
@@ -38,8 +33,6 @@ ul {
   display: flex;
 }
 
-.logo {
-}
 
 header .logo {
   cursor: pointer;
@@ -76,10 +69,6 @@ nav li {
 }
 
 
-/* // Nav */
-
-/* Header */
-
 header {
   background-size: cover;
   background-image: url(./image/photoshop/photoshop/design-assets/bgk-header.png);
@@ -87,13 +76,6 @@ header {
   height:600px;
 }
 
-
-
-
-
-/* // Header*/
-
-/* Hero */
 
 #hero-section {
   display: flex;
@@ -104,26 +86,6 @@ header {
   padding-bottom: 3rem; /* TWEEK VALUE*/
 }
 
-#hero-section h3 {
-  /* padding: 30px; */
-  
-}
-
-#hero-section h1 {
-  /* padding: 30px; */
-}
-
-#hero-section button {
-  /* padding-left: 300px; */
-
-}
-
-.heroContainer {
-  /* padding-right: 200px;
-  padding-bottom: 250px; 
-  padding-left: 300px; */
-  
-}
 
 .heroHeadline {
   display: flex;
@@ -203,18 +165,37 @@ header {
   font-weight: 600;
 }
 
-/* // Hero*/
-
-/* Our Story */
 
 #our_story-section {
   color: black;
 }
 
-/* // Our Story */
-
 #watch-section {
   color: darkred;
+  background-image: url(./image/photoshop/photoshop/design-assets/bgk-middle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.watch1 {
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.watch1 img {
+padding: 0 0 0 24px;
+}
+
+.watch1 p{
+  color: whitesmoke;
+  margin: 24px 24px 24px -2px;
+
 }
 
 
@@ -262,7 +243,6 @@ header {
   height: 18rem;
 }
 #gridbox {
-  /* border: 2px solid black; */
   padding: 2.5rem 2rem;
 }
 .grid-container .grid-item1 {
@@ -394,6 +374,7 @@ form textarea {
   margin: 0.5rem;
   padding: 0.5rem;
   width: 30em;
+  resize: none;
 }
 
 form button {
@@ -411,7 +392,6 @@ form button {
 }
 
 
-
 #contact_client-section h2 {
   text-transform: uppercase;
   color: black;
@@ -420,7 +400,7 @@ form button {
 
 #contact_client-section .client-logo {
   display: grid;
-  grid-template-columns: 170px 170px;
+  grid-template-columns: 200px 200px;
   grid-gap: 25px;
   margin: 0.5rem;
 }
@@ -443,9 +423,10 @@ footer {
   grid-template-columns: 50px 50px;
   align-items: center;
   font-size: larger;
-  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 1rem;
-  color: rgb(72, 188, 188);
+  font-family: 'lato', sans-serif;
+  font-weight: 200;
+  color: #67d8cd;
 }
 
 .footerA p {
@@ -500,18 +481,26 @@ footer {
 }
 
 .form input {
-  width: 12rem;
+  width: 14rem;
   background-color: transparent;
   border: 2px solid whitesmoke;
   color: whitesmoke;
-  padding: 0.5rem;
+  padding: 0.9rem;
+  justify-content: center;
 }
 
 .form button {
   width: 4rem;
   height: 3rem;
-  border: none;
+  border: 2px solid #CCC;
   color: whitesmoke;
+  background: #CCC;
+  opacity: 0.6; 
+}
+
+.form img {
+  padding-top: 0%;
+  margin: 0%;
 }
 
 .footerC .img {
@@ -545,6 +534,3 @@ footer {
     margin-left: 18%;
     margin-right: 15%;
 }
-
-
-/* // Media Queries */
