@@ -75,6 +75,9 @@ nav li {
   color: #67d8cd;
 }
 
+.burger {
+  display: none; 
+}
 
 /* // Nav */
 
@@ -540,7 +543,29 @@ footer {
     margin-top: 5%;
     margin-left: 18%;
     margin-right: 15%;
+  }
+
+  .containerFlexNavigation {
+    display: none; /* Hide the normal navigation menu */
+  }
+
+  .burger {
+    display: block; /* Display the burger menu on smaller screens */
+    position:absolute;
+    cursor: pointer;
+    padding: 10px; /* Add padding for easier clicking */
+    right: 8px;
+        top: 17px;
+        color:white;
+        font-size: 1.2em;
+        padding-right:1rem;
+  }
+
+  
+
 }
+
+
 
 
 /* // Media Queries */
