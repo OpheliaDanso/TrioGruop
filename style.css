@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -8,11 +8,9 @@ html {
   color-scheme: light dark;
 }
 
-
 a {
   text-decoration: none;
   color: black;
-
 }
 
 ul {
@@ -33,7 +31,6 @@ ul {
   display: flex;
 }
 
-
 header .logo {
   cursor: pointer;
   display: flex;
@@ -41,7 +38,7 @@ header .logo {
 }
 
 .logo-text {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 200;
   color: #67d8cd;
 }
@@ -50,10 +47,10 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.navItems, .hero-subline {
+.navItems,
+.hero-subline {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -69,16 +66,15 @@ nav li {
 }
 
 .burger {
-  display: none; 
+  display: none;
 }
 
 header {
   background-size: cover;
   background-image: url(./image/photoshop/photoshop/design-assets/bgk-header.png);
-  background-repeat:no-repeat;
-  height:600px;
+  background-repeat: no-repeat;
+  height: 600px;
 }
-
 
 #hero-section {
   display: flex;
@@ -86,9 +82,7 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 1em;
-  padding-bottom: 3rem; /* TWEEK VALUE*/
 }
-
 
 .heroHeadline {
   display: flex;
@@ -97,7 +91,7 @@ header {
 }
 
 .heroLine {
-  width:5%;
+  width: 5%;
   margin: 0 auto;
   color: #67d8cd;
   border: solid 1px #67d8cd;
@@ -120,9 +114,9 @@ header {
 }
 
 .section2-wrap img {
-    max-width: 40%;
-    margin-left: 18%;
-    margin-right: 15%;
+  max-width: 40%;
+  margin-left: 18%;
+  margin-right: 15%;
 }
 
 #hero-section h1 {
@@ -131,7 +125,7 @@ header {
 
 #hero-section h3 {
   color: white;
-  padding-bottom:2rem;
+  padding-bottom: 2rem;
 }
 
 #hero-section h2 {
@@ -142,12 +136,12 @@ header {
 
 #hero-section p {
   padding-right: 25%;
-  padding-bottom:4%;
+  padding-bottom: 4%;
 }
 
 #hero-section .btn2 {
   background-color: transparent;
-  color:#67d8cd;
+  color: #67d8cd;
   border-color: #67d8cd;
   border-width: thin;
   border-style: solid;
@@ -159,7 +153,7 @@ header {
 }
 
 #hero-section .btn {
-  color:#67d8cd;
+  color: #67d8cd;
   border-color: #67d8cd;
   border-width: thin;
   border-style: solid;
@@ -185,22 +179,20 @@ header {
 }
 
 .watch1 {
- margin-top: auto;
- margin-bottom: auto;
- margin-left: auto;
- margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .watch1 img {
-padding: 0 0 0 24px;
+  padding: 0 0 0 24px;
 }
 
-.watch1 p{
+.watch1 p {
   color: whitesmoke;
   margin: 24px 24px 24px -2px;
-
 }
-
 
 #expertise-section {
   background-color: white;
@@ -213,7 +205,7 @@ padding: 0 0 0 24px;
 }
 
 .ex_wrapper h2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-bottom: 0.3rem;
 }
 .ex_wrapper h5 {
@@ -266,7 +258,6 @@ padding: 0 0 0 24px;
   border-right: 1px solid rgb(234, 228, 228);
 }
 
-
 #gridbox h4 {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
@@ -304,7 +295,7 @@ padding: 0 0 0 24px;
 .flexb {
   width: 25%;
   /* height: 20rem; */
-  aspect-ratio: 1/1.20;
+  aspect-ratio: 1/1.2;
   background-color: white;
 }
 .namediv {
@@ -382,7 +373,7 @@ form textarea {
 
 form button {
   background-color: transparent;
-  color:#67d8cd;
+  color: #67d8cd;
   border-color: #67d8cd;
   text-transform: uppercase;
   border-width: thin;
@@ -393,7 +384,6 @@ form button {
   border-color: #67d8cd;
   font-weight: 600;
 }
-
 
 #contact_client-section h2 {
   text-transform: uppercase;
@@ -418,7 +408,6 @@ footer {
   background-size: cover;
   min-height: 25rem;
   margin-top: 1rem;
-  
 }
 
 .footerA {
@@ -431,7 +420,7 @@ footer {
   align-items: center;
   font-size: larger;
   padding: 1rem;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 200;
   color: #67d8cd;
 }
@@ -505,10 +494,10 @@ footer {
 .form button {
   width: 4rem;
   height: 3rem;
-  border: 2px solid #CCC;
+  border: 2px solid #ccc;
   color: whitesmoke;
-  background: #CCC;
-  opacity: 0.6; 
+  background: #ccc;
+  opacity: 0.6;
 }
 
 .form img {
@@ -525,11 +514,10 @@ footer {
   color: whitesmoke;
 }
 
-
 /* Media Queries */
 
-@media only screen and (min-width:100px) and (max-width:950px){
-  .section2-wrap{
+@media only screen and (min-width: 100px) and (max-width: 950px) {
+  .section2-wrap {
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
@@ -554,18 +542,14 @@ footer {
 
   .burger {
     display: block; /* Display the burger menu on smaller screens */
-    position:absolute;
+    position: absolute;
     cursor: pointer;
     padding: 10px; /* Add padding for easier clicking */
     right: 8px;
-        top: 17px;
-        color:white;
-        font-size: 1.2em;
-        padding-right:1rem;
+    top: 17px;
+    color: white;
+    font-size: 1.2em;
+    padding-right: 1rem;
   }
-
-  
-
 }
 /* // Media Queries */
-
